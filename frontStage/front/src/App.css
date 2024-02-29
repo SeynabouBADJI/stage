@@ -1,0 +1,17 @@
+.ty{
+  text-align: center;
+}
+
+.logo{
+  border-radius: 50%;
+  animation: logo-sprin  infinite 20s linear;
+}
+
+@keyframes logo-sprin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
